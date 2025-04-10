@@ -21,7 +21,7 @@ For each day, I record:
 
 | Day | Main Topic | Personal Note | Code |
 |-----|------------|----------------|------|
-| 1 | Hello GPU | [Note](https://minseoc03.notion.site/CUDA-Introduction-to-CUDA-1d16a507bae98082b6a7c58ec510586e) | [Code](daily_updates/day-1-hello-gpu/helloGPU.cu) |
+| 1 | Hello GPU | [Note](https://minseoc03.notion.site/CUDA-Introduction-to-CUDA-1d16a507bae98082b6a7c58ec510586e) | [Code](daily-updates/day-1-hello-gpu/helloGPU.cu) |
 
 ---
 
