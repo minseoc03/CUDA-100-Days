@@ -11,7 +11,7 @@ Since I don't currently have an NVIDIA GPU, I'm using [leetgpu.com](https://leet
 ## 📚 Structure
 
 For each day, I record:
-- The **main topic**
+- The **main topic** of the day
 - A link to my **personal notes** (hosted on Notion)
 - A link to the **code folder** for that day
 
