@@ -46,6 +46,9 @@ int main() {
         exit(EXIT_FAILURE);
     }
 
+    //intialize vector in GPU
+    //if want to directly initialize vector in GPU without memcopy, need to make another kernel function.
+    //using cudaMemcpy method is way more concise and easy.
     cudaMemcpy(d_A, h_A, size, cudaMemcpyHostToDevice);
     cudaMemcpy(d_B, h_B, size, cudaMemcpyHostToDevice);
 
@@ -53,6 +56,8 @@ int main() {
     int threadsPerBlock = 256;
     int blocksPerGrid = (N + threadsPerBlock - 1) / threadsPerBlock;
     vectorAddGPU<<<blocksPerGrid, threadsPerBlock>>>(d_A, d_B, d_C, N);
+
+    //wait any process on CPU until GPU process is done.
     err = cudaDeviceSynchronize();
     if (err != cudaSuccess) {
         fprintf(stderr, "Kernel launch failed: %s\n", cudaGetErrorString(err));
