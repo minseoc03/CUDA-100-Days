@@ -2,7 +2,7 @@
 
 Welcome to my **CUDA 100 Days Challenge**!
 
-This project is inspired by [AdepojuJeremy's CUDA 120 Days Challenge](https://github.com/AdepojuJeremy/CUDA-120-DAYS--CHALLENGE/tree/main). I'm committing to 100 days of learning and practicing **CUDA programming**, building up from the fundamentals of GPU programming to more complex CUDA operations and projects.
+This project is inspired by [AdepojuJeremy's CUDA 120 Days Challenge](https://github.com/AdepojuJeremy/CUDA-120-DAYS--CHALLENGE/tree/main) and [Umar Jamil's 100 days of GPU](https://github.com/hkproj/100-days-of-gpu/tree/main). I'm committing to 100 days of learning and practicing **CUDA programming**, building up from the fundamentals of GPU programming to more complex CUDA operations and projects.
 
 Since I don't currently have an NVIDIA GPU, I'm using [leetgpu.com](https://leetgpu.com/) to run and test all CUDA code remotely. It's been a great solution for practicing CUDA without needing local GPU resources.
 
