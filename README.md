@@ -25,6 +25,7 @@ For each day, I record:
 | 2 | CPU vs. GPU | Compare vector addition time in CPU and GPU | [Note](https://minseoc03.notion.site/CUDA-GPU-vs-CPU-Architecture-Foundations-1d26a507bae98056a981fd36c2587af5) | [Code](daily-updates/day-2-cpu-vs-gpu) |
 | 3 | Threads Hierarchy | Optimize parallel computing & memory access in vector addition and matrix multiplication | [Note](https://minseoc03.notion.site/CUDA-Thread-Hierarchy-1d36a507bae980c58227c1720094b419) | [Code](daily-updates/day-3-thread-hierarchy)|
 | 4 | Memory Alignment | Compare execution time between coalesced kernel and non-coalesced kernel | [Note](https://www.notion.so/minseoc03/CUDA-Memory-Alignment-Coalescing-1d46a507bae98086b363c5c52ba60534) | [Code](daily-updates/day-4-memory-alignment)
+| 5 | Shared Memory Fundamentals | Implement and test tiled square matrix multiplication using shared memory to accelerate the calculations | | [Code](daily-updates/day-5-shared-memory)
 
 ---
 
